@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\seederdbfaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\seederdbfaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\model\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\model\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\model\\site.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\model\\site.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD670CD-4D29-4379-9928-E94564FC3DB4}|UtilitaireData\\UtilitaireData.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\utilitairedata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD670CD-4D29-4379-9928-E94564FC3DB4}|UtilitaireData\\UtilitaireData.csproj|solutionrelative:utilitairedata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD670CD-4D29-4379-9928-E94564FC3DB4}|UtilitaireData\\UtilitaireData.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\utilitairedata\\utilitairedata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFD670CD-4D29-4379-9928-E94564FC3DB4}|UtilitaireData\\UtilitaireData.csproj|solutionrelative:utilitairedata\\utilitairedata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\controllers\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\controllers\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeederDbFaker.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\SeederDbFaker.cs",
+              "RelativeDocumentMoniker": "API\\SeederDbFaker.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\SeederDbFaker.cs",
+              "RelativeToolTip": "API\\SeederDbFaker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T00:31:44.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Model\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "API\\Model\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Model\\AppDbContext.cs",
+              "RelativeToolTip": "API\\Model\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:50:12.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Model\\Service.cs",
+              "RelativeDocumentMoniker": "API\\Model\\Service.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Model\\Service.cs",
+              "RelativeToolTip": "API\\Model\\Service.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:55:37.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:12:10.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-30T01:22:45.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "API\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "API\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T01:49:07.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "API\\Model\\Employee.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Model\\Employee.cs",
+              "RelativeToolTip": "API\\Model\\Employee.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:49:41.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Site.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Model\\Site.cs",
+              "RelativeDocumentMoniker": "API\\Model\\Site.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Model\\Site.cs",
+              "RelativeToolTip": "API\\Model\\Site.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:54:43.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\UtilitaireData\\Program.cs",
+              "RelativeDocumentMoniker": "UtilitaireData\\Program.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\UtilitaireData\\Program.cs",
+              "RelativeToolTip": "UtilitaireData\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T01:40:46.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UtilitaireData.csproj",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\UtilitaireData\\UtilitaireData.csproj",
+              "RelativeDocumentMoniker": "UtilitaireData\\UtilitaireData.csproj",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\UtilitaireData\\UtilitaireData.csproj",
+              "RelativeToolTip": "UtilitaireData\\UtilitaireData.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-30T01:44:56.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:20:00.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "API.csproj",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-19T12:58:39.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Data\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "API\\Data\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Data\\DatabaseSeeder.cs",
+              "RelativeToolTip": "API\\Data\\DatabaseSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:11:30.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "API\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\WeatherForecast.cs",
+              "RelativeToolTip": "API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:39:38.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T15:02:34.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml",
+              "RelativeToolTip": "WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T15:02:35.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T10:05:12.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "API.http",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\API.http",
+              "RelativeDocumentMoniker": "API\\API.http",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\API.http",
+              "RelativeToolTip": "API\\API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-08T14:56:01.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\.editorconfig",
+              "RelativeDocumentMoniker": "API\\Controllers\\.editorconfig",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\.editorconfig",
+              "RelativeToolTip": "API\\Controllers\\.editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-19T13:40:53.804Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
