@@ -19,6 +19,17 @@ namespace API.Model
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Employee>()
+                .HasOne(e => e.Site)
+                .WithMany()
+                .HasForeignKey(e => e.IdSite)
+                .OnDelete(DeleteBehavior.Restrict); // Empeche de supprimer si un lien avec employe
+
+            modelBuilder.Entity<Employee>()
+                .HasOne(e => e.Service)
+                .WithMany()
+                .HasForeignKey(e => e.IdService)
+                .OnDelete(DeleteBehavior.Restrict); // Empeche de supprimer si un lien avec employe
             /*
             // Fake Data Employee
             modelBuilder.Entity<Employee>().HasData(

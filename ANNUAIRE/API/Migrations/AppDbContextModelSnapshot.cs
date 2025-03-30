@@ -170,13 +170,13 @@ namespace API.Migrations
                     b.HasOne("API.Model.Service", "Service")
                         .WithMany()
                         .HasForeignKey("IdService")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("API.Model.Site", "Site")
                         .WithMany()
                         .HasForeignKey("IdSite")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Service");

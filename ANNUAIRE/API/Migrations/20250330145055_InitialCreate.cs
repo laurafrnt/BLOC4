@@ -61,13 +61,13 @@ namespace API.Migrations
                         column: x => x.IdService,
                         principalTable: "Services",
                         principalColumn: "IdService",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Employees_Sites_IdSite",
                         column: x => x.IdSite,
                         principalTable: "Sites",
                         principalColumn: "IdSite",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.InsertData(

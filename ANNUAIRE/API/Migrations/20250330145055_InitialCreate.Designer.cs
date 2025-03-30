@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250330020512_InitialCreate")]
+    [Migration("20250330145055_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -173,13 +173,13 @@ namespace API.Migrations
                     b.HasOne("API.Model.Service", "Service")
                         .WithMany()
                         .HasForeignKey("IdService")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("API.Model.Site", "Site")
                         .WithMany()
                         .HasForeignKey("IdSite")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Service");
