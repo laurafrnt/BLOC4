@@ -10,15 +10,14 @@ namespace WPF
 {
     public partial class MainWindow : Window
     {
-        private readonly ApiService _apiService; // Correction du nom
+        private ApiService ApiService = new ApiService();
 
         public ObservableCollection<Employee> Employees { get; set; } = new ObservableCollection<Employee>();
 
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = this;
-            _apiService = new ApiService(new HttpClient());
+            DataContext = this; 
             Console.WriteLine("Chargement des employés...");
             LoadEmployees();
         }
@@ -29,7 +28,7 @@ namespace WPF
         {
             try
             {
-                var employees = await _apiService.GetEmployeesAsync();
+                var employees = await ApiService.GetEmployeesAsync();
                 Employees.Clear();
                 foreach (var emp in employees)
                 {
@@ -44,7 +43,7 @@ namespace WPF
             }
         }
 
-        // Accès admin caché (Ctrl + Alt + A)
+        /* Accès admin caché (Ctrl + Alt + A)
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
             if (Keyboard.IsKeyDown(Key.LeftCtrl) && Keyboard.IsKeyDown(Key.LeftAlt) && e.Key == Key.A)
@@ -53,5 +52,6 @@ namespace WPF
                 // Ici, ouvrir une fenêtre d'authentification
             }
         }
+        */
     }
 }
