@@ -63,6 +63,30 @@ namespace WPF
             }
         }
 
+        /* Méthode pour récupérer la liste des sites
+        public async Task<List<Site>> GetSitesAsync()
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync($"{_baseUrl}/Site");
+                response.EnsureSuccessStatusCode();
+
+                var json = await response.Content.ReadAsStringAsync();
+                var sites = JsonSerializer.Deserialize<List<Site>>(json, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+                return sites;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erreur lors de la récupération des sites : {ex.Message}");
+                return new List<Site>();
+            }
+        }
+        */
+
 
         // SERVICE
 
@@ -88,7 +112,52 @@ namespace WPF
                 return null;
             }
         }
+
+        public async Task<List<Site>> GetSitesAsync()
+        {
+            var response = await _httpClient.GetAsync($"{_baseUrl}/Site");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<Site>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+        public async Task<List<Service>> GetServicesAsync()
+        {
+            var response = await _httpClient.GetAsync($"{_baseUrl}/Service");
+            response.EnsureSuccessStatusCode();
+            var json = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<List<Service>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+        }
+
+
+
+        /* Méthode pour récupérer la liste des services
+        public async Task<List<Service>> GetServicesAsync()
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync($"{_baseUrl}/Service");
+                response.EnsureSuccessStatusCode();
+
+                var json = await response.Content.ReadAsStringAsync();
+                var services = JsonSerializer.Deserialize<List<Service>>(json, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+                return services;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erreur lors de la récupération des services : {ex.Message}");
+                return new List<Service>();
+            }
+        }
+        */
+
     }
+
+
 
 
 }

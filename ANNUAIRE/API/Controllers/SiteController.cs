@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 namespace API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class SiteController : ControllerBase
     {
         private readonly AppDbContext _context;

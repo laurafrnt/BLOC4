@@ -19,31 +19,101 @@
         <!-- Barre de séparation -->
         <Rectangle Fill="#186942" Height="3" VerticalAlignment="Top" Margin="10,50,10,0"/>
 
-        <!-- DataGrid stylisé -->
-        <DataGrid x:Name="EmployeeDataGrid"
-                  Margin="10,60,10,10"
-                  Background="White"
-                  ItemsSource="{Binding Employees}" 
-                  AutoGenerateColumns="False"
-                  RowBackground="#c5e197"
-                  AlternatingRowBackground="White"
-                  BorderBrush="#186942"
-                  BorderThickness="1"
-                  SelectionMode="Single"
-                  HorizontalAlignment="Stretch">
+        <!-- Conteneur pour les filtres et le DataGrid -->
+        <Grid Margin="10,60,10,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Filtres -->
+                <RowDefinition Height="*"/>
+                <!-- DataGrid -->
+                <RowDefinition Height="Auto"/>
+                <!-- Pagination -->
+            </Grid.RowDefinitions>
 
-            <!-- Définition des colonnes -->
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Nom" Binding="{Binding LastName}" Width="*" />
-                <DataGridTextColumn Header="Prénom" Binding="{Binding FirstName}" Width="*" />
-                <DataGridTextColumn Header="Téléphone" Binding="{Binding PhoneNumber}" Width="*" />
-                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*" />
-                <DataGridTextColumn Header="Date de naissance" Binding="{Binding Birthday}" Width="*" />
-                <DataGridTextColumn Header="Site" Binding="{Binding Site.City}" Width="*" />
-                <DataGridTextColumn Header="Service" Binding="{Binding Service.Name}" Width="*" />
-            </DataGrid.Columns>
+            <!-- Filtres alignés au-dessus des colonnes correspondantes -->
+            <Grid Grid.Row="0" Margin="0,0,0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <!-- Nom -->
+                    <ColumnDefinition Width="2*"/>
+                    <!-- Prénom -->
+                    <ColumnDefinition Width="1.5*"/>
+                    <!-- Site -->
+                    <ColumnDefinition Width="1.5*"/>
+                    <!-- Service -->
+                </Grid.ColumnDefinitions>
+
+                <!-- Filtre Nom -->
+                <TextBox x:Name="LastNameFilter"
+                         Width="150" 
+                         Margin="5"
+                         TextChanged="FilterChanged"
+                         Grid.Column="0"/>
+
+                <!-- Filtre Prénom -->
+                <TextBox x:Name="FirstNameFilter"
+                         Width="150" 
+                         Margin="5"
+                         TextChanged="FilterChanged"
+                         Grid.Column="1"/>
+
+                <!-- ComboBox pour le filtre Site -->
+                <ComboBox x:Name="SiteFilter"
+                          Width="150" 
+                          Margin="5" 
+                          SelectionChanged="FilterChanged"
+                          DisplayMemberPath="City"
+                          ItemsSource="{Binding Sites}"
+                          SelectedValuePath="IdSite"
+                          Grid.Column="2"/>
+
+                <!-- ComboBox pour le filtre Service -->
+                <ComboBox x:Name="ServiceFilter"
+                          Width="150" 
+                          Margin="5" 
+                          SelectionChanged="FilterChanged"
+                          DisplayMemberPath="Name"
+                          ItemsSource="{Binding Services}"
+                          SelectedValuePath="IdService"
+                          Grid.Column="3"/>
+            </Grid>
+
+            <!-- DataGrid stylisé -->
+            <DataGrid x:Name="EmployeeDataGrid"
+                      Grid.Row="1"
+                      Background="White"
+                      ItemsSource="{Binding Employees}" 
+                      AutoGenerateColumns="False"
+                      RowBackground="#c5e197"
+                      AlternatingRowBackground="White"
+                      BorderBrush="#186942"
+                      BorderThickness="1"
+                      SelectionMode="Single" Margin="0,0,0,43">
+
+                <!-- Définition des colonnes -->
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Nom" Binding="{Binding LastName}" Width="2*" />
+                    <DataGridTextColumn Header="Prénom" Binding="{Binding FirstName}" Width="2*" />
+                    <DataGridTextColumn Header="Téléphone" Binding="{Binding PhoneNumber}" Width="4*" />
+                    <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="4*" />
+                    <DataGridTextColumn Header="Date de naissance" Binding="{Binding Birthday}" Width="4*" />
+                    <DataGridTextColumn Header="Site" Binding="{Binding Site.City}" Width="1.5*" />
+                    <DataGridTextColumn Header="Service" Binding="{Binding Service.Name}" Width="1.5*" />
+                </DataGrid.Columns>
+
+            </DataGrid>
+            
+        </Grid>
+        <!-- Pagination -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10" VerticalAlignment="Bottom">
+            <Button x:Name="PreviousPageButton" Content="Précédent" Click="PreviousPage" 
+            Width="100" Margin="5" IsEnabled="False" Height="30"/>
+            <TextBlock x:Name="PageIndicator" Text="Page 1" VerticalAlignment="Center" Margin="10"/>
+            <Button x:Name="NextPageButton" Content="Suivant" Click="NextPage" 
+            Width="100" Margin="5" Height="30"/>
+        </StackPanel>
 
 
-        </DataGrid>
     </Grid>
+    
 </Window>

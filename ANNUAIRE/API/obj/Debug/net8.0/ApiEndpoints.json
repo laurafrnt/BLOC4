@@ -121,7 +121,7 @@
   {
     "ContainingType": "API.Controllers.ServiceController",
     "Method": "GetServices",
-    "RelativePath": "Service",
+    "RelativePath": "api/Service",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -141,7 +141,7 @@
   {
     "ContainingType": "API.Controllers.ServiceController",
     "Method": "PostService",
-    "RelativePath": "Service",
+    "RelativePath": "api/Service",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -167,7 +167,7 @@
   {
     "ContainingType": "API.Controllers.ServiceController",
     "Method": "GetService",
-    "RelativePath": "Service/{id}",
+    "RelativePath": "api/Service/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -193,7 +193,7 @@
   {
     "ContainingType": "API.Controllers.ServiceController",
     "Method": "PutService",
-    "RelativePath": "Service/{id}",
+    "RelativePath": "api/Service/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -224,7 +224,7 @@
   {
     "ContainingType": "API.Controllers.ServiceController",
     "Method": "DeleteService",
-    "RelativePath": "Service/{id}",
+    "RelativePath": "api/Service/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -240,7 +240,7 @@
   {
     "ContainingType": "API.Controllers.SiteController",
     "Method": "GetSites",
-    "RelativePath": "Site",
+    "RelativePath": "api/Site",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -260,7 +260,7 @@
   {
     "ContainingType": "API.Controllers.SiteController",
     "Method": "PostSite",
-    "RelativePath": "Site",
+    "RelativePath": "api/Site",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -286,7 +286,7 @@
   {
     "ContainingType": "API.Controllers.SiteController",
     "Method": "GetSite",
-    "RelativePath": "Site/{id}",
+    "RelativePath": "api/Site/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -312,7 +312,7 @@
   {
     "ContainingType": "API.Controllers.SiteController",
     "Method": "PutSite",
-    "RelativePath": "Site/{id}",
+    "RelativePath": "api/Site/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -343,7 +343,7 @@
   {
     "ContainingType": "API.Controllers.SiteController",
     "Method": "DeleteSite",
-    "RelativePath": "Site/{id}",
+    "RelativePath": "api/Site/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
