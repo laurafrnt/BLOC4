@@ -1,4 +1,4 @@
-﻿using API.Model;
+﻿using ClassLibrary;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

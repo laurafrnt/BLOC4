@@ -1,4 +1,4 @@
-﻿using API.Model;
+﻿using ClassLibrary;
 using Bogus;
 using Microsoft.AspNetCore.Mvc;
 using System;

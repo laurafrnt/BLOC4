@@ -2,14 +2,14 @@
   {
     "ContainingType": "API.Controllers.EmployeeController",
     "Method": "GetEmployees",
-    "RelativePath": "Employee",
+    "RelativePath": "api/Employee",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[API.Model.Employee, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClassLibrary.Employee, ClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -22,20 +22,20 @@
   {
     "ContainingType": "API.Controllers.EmployeeController",
     "Method": "PostEmployee",
-    "RelativePath": "Employee",
+    "RelativePath": "api/Employee",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "employee",
-        "Type": "API.Model.Employee",
+        "Type": "ClassLibrary.Employee",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Model.Employee",
+        "Type": "ClassLibrary.Employee",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -48,7 +48,7 @@
   {
     "ContainingType": "API.Controllers.EmployeeController",
     "Method": "GetEmployee",
-    "RelativePath": "Employee/{id}",
+    "RelativePath": "api/Employee/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Model.Employee",
+        "Type": "ClassLibrary.Employee",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -74,7 +74,7 @@
   {
     "ContainingType": "API.Controllers.EmployeeController",
     "Method": "PutEmployee",
-    "RelativePath": "Employee/{id}",
+    "RelativePath": "api/Employee/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -86,13 +86,13 @@
       },
       {
         "Name": "employee",
-        "Type": "API.Model.Employee",
+        "Type": "ClassLibrary.Employee",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Model.Employee",
+        "Type": "ClassLibrary.Employee",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -105,7 +105,7 @@
   {
     "ContainingType": "API.Controllers.EmployeeController",
     "Method": "DeleteEmployee",
-    "RelativePath": "Employee/{id}",
+    "RelativePath": "api/Employee/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -128,7 +128,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[API.Model.Service, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClassLibrary.Service, ClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -148,13 +148,13 @@
     "Parameters": [
       {
         "Name": "service",
-        "Type": "API.Model.Service",
+        "Type": "ClassLibrary.Service",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Model.Service",
+        "Type": "ClassLibrary.Service",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -180,7 +180,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Model.Service",
+        "Type": "ClassLibrary.Service",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -205,13 +205,13 @@
       },
       {
         "Name": "service",
-        "Type": "API.Model.Service",
+        "Type": "ClassLibrary.Service",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Model.Service",
+        "Type": "ClassLibrary.Service",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -247,7 +247,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[API.Model.Site, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClassLibrary.Site, ClassLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -267,13 +267,13 @@
     "Parameters": [
       {
         "Name": "site",
-        "Type": "API.Model.Site",
+        "Type": "ClassLibrary.Site",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Model.Site",
+        "Type": "ClassLibrary.Site",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -299,7 +299,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Model.Site",
+        "Type": "ClassLibrary.Site",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -324,13 +324,13 @@
       },
       {
         "Name": "site",
-        "Type": "API.Model.Site",
+        "Type": "ClassLibrary.Site",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "API.Model.Site",
+        "Type": "ClassLibrary.Site",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -355,26 +355,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "API.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[API.WeatherForecast, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

@@ -2480,6 +2480,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Bogus": "35.6.1",
+          "ClassLibrary": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
@@ -2494,6 +2495,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "ClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary.dll": {}
+        }
       }
     }
   },
@@ -6924,11 +6935,17 @@
       "type": "project",
       "path": "../API/API.csproj",
       "msbuildProject": "../API/API.csproj"
+    },
+    "ClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary/ClassLibrary.csproj",
+      "msbuildProject": "../ClassLibrary/ClassLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "API >= 1.0.0"
+      "API >= 1.0.0",
+      "ClassLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6961,6 +6978,9 @@
           "projectReferences": {
             "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\API.csproj": {
               "projectPath": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\API.csproj"
+            },
+            "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\ClassLibrary\\ClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\ClassLibrary\\ClassLibrary.csproj"
             }
           }
         }

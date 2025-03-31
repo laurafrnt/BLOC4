@@ -254,3 +254,5 @@ C:\Users\laura\Documents\GitHub\BLOC4\ANNUAIRE\UtilitaireData\bin\Debug\net8.0\r
 C:\Users\laura\Documents\GitHub\BLOC4\ANNUAIRE\UtilitaireData\bin\Debug\net8.0\API.dll
 C:\Users\laura\Documents\GitHub\BLOC4\ANNUAIRE\UtilitaireData\bin\Debug\net8.0\API.pdb
 C:\Users\laura\Documents\GitHub\BLOC4\ANNUAIRE\UtilitaireData\obj\Debug\net8.0\Utilitai.6B90519E.Up2Date
+C:\Users\laura\Documents\GitHub\BLOC4\ANNUAIRE\UtilitaireData\bin\Debug\net8.0\ClassLibrary.dll
+C:\Users\laura\Documents\GitHub\BLOC4\ANNUAIRE\UtilitaireData\bin\Debug\net8.0\ClassLibrary.pdb

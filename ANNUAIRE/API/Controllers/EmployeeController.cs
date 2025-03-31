@@ -1,4 +1,4 @@
-﻿using API.Model;
+﻿using ClassLibrary;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class EmployeeController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -21,12 +21,10 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
         {
-            var employees = await _context.Employees
+            return await _context.Employees
                 .Include(e => e.Site)   // Charge les informations du site
                 .Include(e => e.Service) // Charge les informations du service
                 .ToListAsync();
-
-            return Ok(employees);
         }
 
         // GET employee

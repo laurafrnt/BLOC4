@@ -1,5 +1,5 @@
 ﻿using API;  // Assurez-vous que ce namespace est correct
-using API.Model;  // Si DesignTimeDbContextFactory et SeederDbFaker sont dans ce namespace
+using ClassLibrary;  // Si DesignTimeDbContextFactory et SeederDbFaker sont dans ce namespace
 
 class Program
 {
