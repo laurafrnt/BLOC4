@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
+using System.Net.Http.Json;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -12,6 +14,12 @@ namespace WPF
         private readonly string _baseUrl;
         private readonly HttpClient _httpClient;
 
+        // Méthode pour vérifier le mot de passe
+        public async Task<bool> VerifyPasswordAsync(string password)
+        {
+            var response = await _httpClient.PostAsJsonAsync($"{_baseUrl}/auth/verify-password", password);
+            return response.IsSuccessStatusCode;
+        }
 
         public ApiService()
         {
@@ -19,6 +27,9 @@ namespace WPF
             _httpClient = new HttpClient();
         }
 
+        // EMPLOYEE
+
+        // GET Employees
         public async Task<List<Employee>> GetEmployeesAsync()
         {
             using var client = new HttpClient();
@@ -35,6 +46,48 @@ namespace WPF
 
             return employees;
         }
+
+        // Add Employee
+        public async Task<Employee> AddEmployeeAsync(Employee employee)
+        {
+            var json = JsonSerializer.Serialize(employee);
+            Console.WriteLine($"Envoi JSON : {json}");  // Affiche le JSON envoyé
+
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            var response = await _httpClient.PostAsync($"{_baseUrl}/Employee", content);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var error = await response.Content.ReadAsStringAsync();
+                throw new Exception($"Erreur API : {response.StatusCode} - {error}");
+            }
+
+            return await response.Content.ReadFromJsonAsync<Employee>();
+        }
+
+        // Update Empployee
+        public async Task UpdateEmployeeAsync(Employee employee)
+        {
+            using HttpClient client = new HttpClient();
+            string url = $"https://localhost:7163/api/Employee/{employee.IdEmployee}";
+            string json = JsonSerializer.Serialize(employee);
+            StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await client.PutAsync(url, content);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new Exception($"Erreur : {response.StatusCode}");
+            }
+        }
+
+
+        public async Task DeleteEmployeeAsync(int id)
+        {
+            var response = await _httpClient.DeleteAsync($"{_baseUrl}/Employee/{id}");
+            response.EnsureSuccessStatusCode();
+        }
+
 
 
 
@@ -63,29 +116,6 @@ namespace WPF
             }
         }
 
-        /* Méthode pour récupérer la liste des sites
-        public async Task<List<Site>> GetSitesAsync()
-        {
-            try
-            {
-                var response = await _httpClient.GetAsync($"{_baseUrl}/Site");
-                response.EnsureSuccessStatusCode();
-
-                var json = await response.Content.ReadAsStringAsync();
-                var sites = JsonSerializer.Deserialize<List<Site>>(json, new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                });
-
-                return sites;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Erreur lors de la récupération des sites : {ex.Message}");
-                return new List<Site>();
-            }
-        }
-        */
 
 
         // SERVICE
@@ -131,29 +161,7 @@ namespace WPF
 
 
 
-        /* Méthode pour récupérer la liste des services
-        public async Task<List<Service>> GetServicesAsync()
-        {
-            try
-            {
-                var response = await _httpClient.GetAsync($"{_baseUrl}/Service");
-                response.EnsureSuccessStatusCode();
-
-                var json = await response.Content.ReadAsStringAsync();
-                var services = JsonSerializer.Deserialize<List<Service>>(json, new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                });
-
-                return services;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Erreur lors de la récupération des services : {ex.Message}");
-                return new List<Service>();
-            }
-        }
-        */
+       
 
     }
 

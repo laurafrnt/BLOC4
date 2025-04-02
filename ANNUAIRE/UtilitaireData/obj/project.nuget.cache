@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AZECxHlSyko=",
+  "dgSpecHash": "UFIv+R2OtmY=",
   "success": true,
   "projectFilePath": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\UtilitaireData\\UtilitaireData.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\laura\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\laura\\.nuget\\packages\\bogus\\35.6.1\\bogus.35.6.1.nupkg.sha512",
     "C:\\Users\\laura\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\laura\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

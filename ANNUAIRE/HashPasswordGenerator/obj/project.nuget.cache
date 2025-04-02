@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "un1MIGYzU+M=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\HashPasswordGenerator\\HashPasswordGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\laura\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

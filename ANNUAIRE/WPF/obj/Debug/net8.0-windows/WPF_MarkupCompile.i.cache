@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\laura\Documents\GitHub\BLOC4\ANNUAIRE\WPF\App.xaml
-11407045341
+8-1261330972
 
-7-1587821887
-3931267128918
-MainWindow.xaml;
+141833545530
+400230121583
+AddEmployeeManagement.xaml;AdminDashboardWindow.xaml;AdminLoginWindow.xaml;EditEmployeeManagement.xaml;EmployeeManagement.xaml;MainWindow.xaml;ServiceManagement.xaml;SiteManagement.xaml;
 
 False
 

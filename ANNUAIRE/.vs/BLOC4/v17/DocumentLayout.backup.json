@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\controllers\\sitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\controllers\\sitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\employeemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\employeemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\sitemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\sitemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -11,32 +35,40 @@
       "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\editemployeemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\editemployeemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\servicemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\servicemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\employeemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\employeemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72C465C7-82B0-4E55-AEC9-7E5EFC218AE6}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\classlibrary\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72C465C7-82B0-4E55-AEC9-7E5EFC218AE6}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72C465C7-82B0-4E55-AEC9-7E5EFC218AE6}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\classlibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72C465C7-82B0-4E55-AEC9-7E5EFC218AE6}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\servicemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\servicemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\api\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C96EC6C6-2D91-44D5-99CC-220D94E271A9}|API\\API.csproj|solutionrelative:api\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\sitemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\sitemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72C465C7-82B0-4E55-AEC9-7E5EFC218AE6}|ClassLibrary\\ClassLibrary.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\classlibrary\\site.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72C465C7-82B0-4E55-AEC9-7E5EFC218AE6}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\site.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\wpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D98AAFB6-025C-42C9-9BF2-809521593C72}|WPF\\WPF.csproj|solutionrelative:wpf\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFD670CD-4D29-4379-9928-E94564FC3DB4}|UtilitaireData\\UtilitaireData.csproj|c:\\users\\laura\\documents\\github\\bloc4\\annuaire\\utilitairedata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD670CD-4D29-4379-9928-E94564FC3DB4}|UtilitaireData\\UtilitaireData.csproj|solutionrelative:utilitairedata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +78,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml",
+              "RelativeToolTip": "WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T14:54:54.18Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -58,31 +103,148 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "WPF\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\AssemblyInfo.cs",
-              "RelativeToolTip": "WPF\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T16:38:21.415Z"
+              "WhenOpened": "2025-04-01T22:15:44.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Site.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\ClassLibrary\\Site.cs",
-              "RelativeDocumentMoniker": "ClassLibrary\\Site.cs",
-              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\ClassLibrary\\Site.cs",
-              "RelativeToolTip": "ClassLibrary\\Site.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv4oAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:37:47.624Z"
+              "WhenOpened": "2025-04-01T23:14:00.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "API\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:14:11.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SiteController.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\SiteController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\SiteController.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\SiteController.cs",
+              "RelativeToolTip": "API\\Controllers\\SiteController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T23:14:19.96Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "EmployeeManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\EmployeeManagement.xaml",
+              "RelativeDocumentMoniker": "WPF\\EmployeeManagement.xaml",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\EmployeeManagement.xaml",
+              "RelativeToolTip": "WPF\\EmployeeManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T15:18:01.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T14:54:55.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SiteManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\SiteManagement.xaml.cs",
+              "RelativeDocumentMoniker": "WPF\\SiteManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\SiteManagement.xaml.cs",
+              "RelativeToolTip": "WPF\\SiteManagement.xaml.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswHkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T22:59:29.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditEmployeeManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\EditEmployeeManagement.xaml",
+              "RelativeDocumentMoniker": "WPF\\EditEmployeeManagement.xaml",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\EditEmployeeManagement.xaml",
+              "RelativeToolTip": "WPF\\EditEmployeeManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T23:01:37.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\ApiService.cs",
+              "RelativeDocumentMoniker": "WPF\\ApiService.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\ApiService.cs",
+              "RelativeToolTip": "WPF\\ApiService.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:03:35.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\ServiceManagement.xaml.cs",
+              "RelativeDocumentMoniker": "WPF\\ServiceManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\ServiceManagement.xaml.cs",
+              "RelativeToolTip": "WPF\\ServiceManagement.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwv0oAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T15:49:32.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\EmployeeManagement.xaml.cs",
+              "RelativeDocumentMoniker": "WPF\\EmployeeManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\EmployeeManagement.xaml.cs",
+              "RelativeToolTip": "WPF\\EmployeeManagement.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvzYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T15:19:37.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\ClassLibrary\\Service.cs",
               "RelativeDocumentMoniker": "ClassLibrary\\Service.cs",
@@ -90,84 +252,56 @@
               "RelativeToolTip": "ClassLibrary\\Service.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:37:42.674Z",
+              "WhenOpened": "2025-04-01T16:06:27.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\ApiService.cs",
-              "RelativeDocumentMoniker": "WPF\\ApiService.cs",
-              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\ApiService.cs",
-              "RelativeToolTip": "WPF\\ApiService.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAgwHIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "Site.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\ClassLibrary\\Site.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Site.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\ClassLibrary\\Site.cs",
+              "RelativeToolTip": "ClassLibrary\\Site.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T09:02:06.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T16:06:26.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPF\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml",
-              "RelativeToolTip": "WPF\\MainWindow.xaml",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\UtilitaireData\\Program.cs",
+              "RelativeDocumentMoniker": "UtilitaireData\\Program.cs",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\UtilitaireData\\Program.cs",
+              "RelativeToolTip": "UtilitaireData\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T16:06:37.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\ServiceManagement.xaml",
+              "RelativeDocumentMoniker": "WPF\\ServiceManagement.xaml",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\ServiceManagement.xaml",
+              "RelativeToolTip": "WPF\\ServiceManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-08T15:02:35.246Z",
+              "WhenOpened": "2025-04-01T15:47:26.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:02:34.787Z",
+              "DocumentIndex": 14,
+              "Title": "SiteManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\SiteManagement.xaml",
+              "RelativeDocumentMoniker": "WPF\\SiteManagement.xaml",
+              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\WPF\\SiteManagement.xaml",
+              "RelativeToolTip": "WPF\\SiteManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T14:48:34.397Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "API\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAswHMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:20:00.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\ClassLibrary\\Employee.cs",
-              "RelativeDocumentMoniker": "ClassLibrary\\Employee.cs",
-              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\ClassLibrary\\Employee.cs",
-              "RelativeToolTip": "ClassLibrary\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T20:11:03.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "API\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\API\\AppDbContext.cs",
-              "RelativeToolTip": "API\\AppDbContext.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAUwEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:50:12.222Z"
             }
           ]
         }

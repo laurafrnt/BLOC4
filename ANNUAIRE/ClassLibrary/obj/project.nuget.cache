@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GNFVHYybk5o=",
+  "dgSpecHash": "6N+j3+zIxqM=",
   "success": true,
   "projectFilePath": "C:\\Users\\laura\\Documents\\GitHub\\BLOC4\\ANNUAIRE\\ClassLibrary\\ClassLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\laura\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

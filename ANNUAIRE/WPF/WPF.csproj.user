@@ -7,7 +7,51 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddEmployeeManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminDashboardWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminLoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditEmployeeManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EmployeeManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ServiceManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SiteManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddEmployeeManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminDashboardWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminLoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditEmployeeManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EmployeeManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ServiceManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SiteManagement.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

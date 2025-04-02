@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace WPF
 {
@@ -24,16 +25,30 @@ namespace WPF
             DataContext = this;
             LoadEmployees();
             LoadFilters();
+            // écoute du clavier user
+            this.KeyDown += MainWindow_KeyDown;
         }
 
-        // Charge la liste complète des employés depuis l'API
+        // Charge la liste  des employés depuis l'API
         private async void LoadEmployees()
         {
             try
             {
                 var employees = await ApiService.GetEmployeesAsync();
+                var sites = await ApiService.GetSitesAsync();
+                var services = await ApiService.GetServicesAsync();
+
+                // Associer les sites et services aux employés
+                foreach (var employee in employees)
+
+                {
+                    employee.Site = sites.FirstOrDefault(s => s.IdSite == employee.IdSite);
+                    employee.Service = services.FirstOrDefault(s => s.IdService == employee.IdService);
+                }
                 AllEmployees = employees.ToList(); // Stocke la liste complète
                 FilterChanged(null, null); // Applique les filtres avec pagination
+
+
             }
             catch (Exception ex)
             {
@@ -72,11 +87,11 @@ namespace WPF
         // Applique les filtres et la pagination
         private void FilterChanged(object sender, EventArgs e)
         {
-            currentPage = 1; // Réinitialise à la première page lorsqu'on filtre
+            currentPage = 1; // Réinitialise à la première page quand 'on filtre
             UpdatePagination();
         }
 
-        // Mise à jour de l'affichage des employés selon la pagination
+        // MAJ de l'affichage des employés selon la pagination
         private void UpdatePagination()
         {
             var filteredEmployees = ApplyFilters();
@@ -91,15 +106,15 @@ namespace WPF
                 Employees.Add(emp);
             }
 
-            // Mise à jour des boutons de pagination
+            // MAJ btn pagination
             PreviousPageButton.IsEnabled = currentPage > 1;
             NextPageButton.IsEnabled = (currentPage * itemsPerPage) < filteredEmployees.Count();
 
-            // Mise à jour de l'affichage du numéro de page
+            // MAJ No de page
             PageIndicator.Text = $"Page {currentPage}";
         }
 
-        // Méthode appelée lorsqu'on clique sur "Précédent"
+        // "Précédent"
         private void PreviousPage(object sender, RoutedEventArgs e)
         {
             if (currentPage > 1)
@@ -109,7 +124,7 @@ namespace WPF
             }
         }
 
-        // Méthode appelée lorsqu'on clique sur "Suivant"
+        // "Suivant"
         private void NextPage(object sender, RoutedEventArgs e)
         {
             var filteredEmployees = ApplyFilters();
@@ -159,6 +174,15 @@ namespace WPF
             }
 
             return filteredEmployees;
+        }
+
+        //
+        private void MainWindow_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keyboard.IsKeyDown(Key.LeftCtrl) && Keyboard.IsKeyDown(Key.LeftShift) && e.Key == Key.A)
+            {
+                new AdminLoginWindow().ShowDialog();
+            }
         }
     }
 }

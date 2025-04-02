@@ -11,7 +11,7 @@ namespace API
     {
         private readonly AppDbContext _context;
 
-        public static int rowEmployees = 100;
+        public static int rowEmployees = 1000;
         public static int rowSites = 10;
         public static int rowServices = 7;
 

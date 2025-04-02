@@ -32,12 +32,14 @@ namespace ClassLibrary
         [ForeignKey("Site")]
         [JsonPropertyName("idSite")]
         public int IdSite { get; set; }
-        public Site Site { get; set; } 
+        [JsonIgnore]
+        public Site? Site { get; set; } 
 
         [ForeignKey("Service")]
         [JsonPropertyName("idService")]
-        public int IdService { get; set; }
-        public Service Service { get; set; } 
+        public int IdService { get; set; }     
+        [JsonIgnore]
+        public Service? Service { get; set; } 
     
 
         // Constructeur

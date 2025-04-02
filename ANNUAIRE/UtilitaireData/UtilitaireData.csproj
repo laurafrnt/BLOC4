@@ -7,6 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
+
 	<ItemGroup>
 		<ProjectReference Include="..\API\API.csproj" />
 		<ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj" />

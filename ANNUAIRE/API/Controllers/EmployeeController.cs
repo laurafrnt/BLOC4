@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Text.Json;
 
 namespace API.Controllers
 {
@@ -44,7 +45,7 @@ namespace API.Controllers
             return Ok(employee);
         }
 
-
+        // PUT
         [HttpPut("{id}")]
         public async Task<ActionResult<Employee>> PutEmployee(int id, Employee employee)
         {
@@ -103,13 +104,35 @@ namespace API.Controllers
             return Ok();
         }
 
+
         // POST (add) employee
         [HttpPost]
-        public ActionResult<Employee> PostEmployee(Employee employee)
+        public async Task<IActionResult> PostEmployee([FromBody] Employee employee)
         {
+            if (employee == null)
+                return BadRequest("Les données de l'employé sont nulles.");
+
+            // Récupérer le site et le service en base de données
+            var site = await _context.Sites.FindAsync(employee.IdSite);
+            var service = await _context.Services.FindAsync(employee.IdService);
+
+            if (site == null || service == null)
+                return BadRequest("Le site ou le service spécifié est introuvable.");
+
+            // Associer les objets récupérés à l'employé
+            employee.Site = site;
+            employee.Service = service;
+
+            // Ajouter l'employé en base de données
             _context.Employees.Add(employee);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetEmployee), new { id = employee.IdEmployee }, employee);
+
         }
+
+
+
+
     }
 }

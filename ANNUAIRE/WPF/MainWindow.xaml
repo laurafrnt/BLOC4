@@ -88,7 +88,8 @@
                       AlternatingRowBackground="White"
                       BorderBrush="#186942"
                       BorderThickness="1"
-                      SelectionMode="Single" Margin="0,0,0,43">
+                      SelectionMode="Single" Margin="0,0,0,43"
+                      IsReadOnly="True">
 
                 <!-- Définition des colonnes -->
                 <DataGrid.Columns>
