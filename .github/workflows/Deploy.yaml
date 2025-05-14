@@ -53,7 +53,7 @@ jobs:
         configuration: [Debug, Release]
 
     env:
-      Solution_Name: BLOC4.sln 
+      Solution_Name: ANNUAIRE\BLOC4.sln 
 
     steps:
       - name: Checkout code
