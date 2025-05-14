@@ -74,5 +74,9 @@ jobs:
         env:
           Configuration: ${{ matrix.configuration }}
 
-      - name: Build solution
-        run: msbuild $env:Solution_Name /p:Configuration=$env:Configuration
+      # Mise à jour de la commande msbuild pour spécifier Configuration et Platform
+      - name: Build the application
+        run: msbuild $env:Solution_Name /p:Configuration=$env:Configuration /p:Platform="Any CPU"
+        env:
+          Configuration: ${{ matrix.configuration }}
+
